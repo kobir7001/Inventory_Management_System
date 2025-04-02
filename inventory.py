@@ -120,7 +120,7 @@ def display_products():
     if not products:
         print("No products available.")
     else:
-        print("Product Catalog:")
+        print("Product List:")
         for product in products:
             print("Name: " + product[0] + ", Price: ₹" + str(product[1]) + ", Quantity: " + str(product[2]))
    
